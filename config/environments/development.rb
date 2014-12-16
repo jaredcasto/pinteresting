@@ -1,3 +1,5 @@
+Paperclip.options[:command_path] = 'E:\Program Files\ImageMagick-6.9.0-Q16'
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -37,4 +39,6 @@ Rails.application.configure do
 
   # required for heroku
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }  
+
+
 end
