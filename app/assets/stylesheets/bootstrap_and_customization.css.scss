@@ -9,6 +9,7 @@ $brand-primary: #c0392b;
 $jumbotron-bg: #bdc3c7;
 $progress-bar-bg: yellow;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 .center {
